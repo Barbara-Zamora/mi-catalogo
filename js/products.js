@@ -4,7 +4,7 @@ const PRODUCTS = [
     name: 'Suéter Celestial',
     price: 38990,
     status: 'nuevo',
-    image:'./img/sueter.png',
+    image:'/img/sueter.png',
     sizes: ['S', 'M', 'L'],
     description:
       'Suéter tejido suave con bordados de estrellas y luna, perfecto para noches acogedoras.',
