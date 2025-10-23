@@ -36,7 +36,7 @@ const PRODUCTS = [
     price: 35990,
     status: 'disponible',
     image:
-      './cardigan.png',
+      './img/cardigan.png',
     sizes: ['M', 'L', 'XL'],
     description:
       'Cardigan ligero con botones perlados y delicado estampado floral en tonos pastel.',
@@ -52,7 +52,7 @@ const PRODUCTS = [
     price: 40990,
     status: 'disponible',
     image:
-      './hoodie.png',
+      './img/hoodie.png',
     sizes: ['S', 'M', 'L', 'XL'],
     description:
       'Sudadera con capucha en color lavanda, interior afelpado y estampado de lunas encantadas.',
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: 29990,
     status: 'disponible',
     image:
-      ',/bolso.png',
+      './img/bolso.png',
     sizes: ['Única'],
     description:
       'Bolso acolchado con forma de nube, liviano y con espacio perfecto para tus esenciales.',
@@ -84,7 +84,7 @@ const PRODUCTS = [
     price: 32990,
     status: 'disponible',
     image:
-      './falda.png',
+      './img/falda.png',
     sizes: ['S', 'M', 'L'],
     description:
       'Falda plisada en tonos degradados con movimiento dulce y suave al caminar.',
