@@ -36,7 +36,7 @@ const PRODUCTS = [
     price: 35990,
     status: 'disponible',
     image:
-      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',
+      './cardigan.png',
     sizes: ['M', 'L', 'XL'],
     description:
       'Cardigan ligero con botones perlados y delicado estampado floral en tonos pastel.',
@@ -52,7 +52,7 @@ const PRODUCTS = [
     price: 40990,
     status: 'disponible',
     image:
-      'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80',
+      './hoodie.png',
     sizes: ['S', 'M', 'L', 'XL'],
     description:
       'Sudadera con capucha en color lavanda, interior afelpado y estampado de lunas encantadas.',
@@ -68,7 +68,7 @@ const PRODUCTS = [
     price: 29990,
     status: 'disponible',
     image:
-      'https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80',
+      ',/bolso.png',
     sizes: ['Única'],
     description:
       'Bolso acolchado con forma de nube, liviano y con espacio perfecto para tus esenciales.',
@@ -84,7 +84,7 @@ const PRODUCTS = [
     price: 32990,
     status: 'disponible',
     image:
-      'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80',
+      './falda.png',
     sizes: ['S', 'M', 'L'],
     description:
       'Falda plisada en tonos degradados con movimiento dulce y suave al caminar.',
