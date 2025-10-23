@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del Producto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="product-body">
+    <header class="site-header compact">
+      <a class="brand" href="index.html">
+        <span class="brand-icon">♡</span>
+        <div class="brand-text">
+          <h1>Mi Catálogo</h1>
+          <p class="tagline">Volver a la tienda</p>
+        </div>
+      </a>
+    </header>
+
+    <main class="product-main" aria-live="polite">
+      <article id="product-detail" class="product-detail" hidden>
+        <div class="product-gallery">
+          <img id="product-image" src="" alt="" loading="lazy" />
+          <span id="product-status" class="product-status"></span>
+        </div>
+        <div class="product-info">
+          <h2 id="product-name"></h2>
+          <p id="product-price" class="product-price"></p>
+          <div class="product-options">
+            <label for="size-select">Talla</label>
+            <select id="size-select"></select>
+          </div>
+          <button class="cta" disabled>Agregar al carrito</button>
+          <section class="product-description">
+            <h3>Descripción</h3>
+            <p id="product-description"></p>
+          </section>
+          <section class="product-details">
+            <h3>Detalles</h3>
+            <ul id="product-features"></ul>
+          </section>
+        </div>
+      </article>
+
+      <section id="product-empty" class="empty-state" hidden>
+        <h2>Producto no encontrado</h2>
+        <p>
+          El producto que buscas ya no está disponible. Vuelve a la
+          <a href="index.html">página principal</a> para seguir explorando.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>♡ Hecho con cariño pastel ♡</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/product.js"></script>
+  </body>
+</html>

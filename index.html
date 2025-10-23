@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Catálogo Tierno</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-icon">♡</span>
+        <div class="brand-text">
+          <h1>Mi Catálogo</h1>
+          <p class="tagline">Moda y detalles con encanto</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="inicio" class="site-main">
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Encuentra piezas que enamoran</h2>
+          <p>
+            Una colección seleccionada cuidadosamente para acompañarte en cada
+            momento especial.
+          </p>
+          <a class="cta" href="#catalogo">Ver colección</a>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <div class="hero-bubble"></div>
+          <div class="hero-bubble bubble-2"></div>
+          <div class="hero-bubble bubble-3"></div>
+        </div>
+      </section>
+
+      <section id="catalogo" class="catalog">
+        <div class="section-heading">
+          <h2>Nuestros favoritos</h2>
+          <p>
+            Descubre artículos únicos llenos de color pastel y detalles suaves.
+          </p>
+        </div>
+        <div id="catalog-grid" class="catalog-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="nosotros" class="about">
+        <div class="section-heading">
+          <h2>Nosotros</h2>
+          <p>
+            Somos amantes del diseño tierno y soñador, con el deseo de crear un
+            espacio donde cada pieza cuente una historia especial.
+          </p>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact">
+        <div class="section-heading">
+          <h2>Contacto</h2>
+          <p>
+            ¿Tienes dudas o quieres personalizar tu pedido? Escríbenos a
+            <a href="mailto:hola@micatalogo.com">hola@micatalogo.com</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>♡ Gracias por visitar nuestro universo pastel ♡</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
