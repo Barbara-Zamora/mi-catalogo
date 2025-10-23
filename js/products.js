@@ -20,7 +20,7 @@ const PRODUCTS = [
     price: 44990,
     status: 'agotado',
     image:
-      'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80',
+      './img/vestido.png',
     sizes: ['XS', 'S', 'M'],
     description:
       'Vestido vaporoso en capas de tul degradado inspirado en los amaneceres más dulces.',
